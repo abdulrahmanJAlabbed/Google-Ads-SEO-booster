@@ -1,21 +1,21 @@
-# Google-Ads-SEO-booster
-# Automated Google Ads Link Navigator
+# Google Ads SEO Booster
 
-This project is a Node.js script that automates the process of querying Google, selecting ad links relevant to the query, and navigating through those links with rotating proxies. Built using Puppeteer, it employs plugins for stealth and CAPTCHA handling, making it suitable for environments where detection avoidance is crucial.
+This project automates the process of querying Google, identifying and selecting Google Ads links relevant to the query, and navigating through those links using rotating proxies. Built with Puppeteer and enhanced with stealth and CAPTCHA-handling plugins, this tool simulates natural browsing behavior to interact with Google Ads, making it suitable for environments that require detection avoidance.
 
 ## Features
 
-- **Stealth Mode**: Utilizes `puppeteer-extra-plugin-stealth` to reduce detection risk.
-- **Automated Google Ads Interaction**: Fetches Google Ads links based on user-provided queries.
-- **Rotating Proxies**: Ensures secure and undetected navigation across multiple links.
-- **Flexible User Agent and Viewport**: Randomizes browser characteristics for realistic browsing behavior.
-- **Link Storage and Revisit Options**: Saves visited links and allows reuse or revisit, ensuring efficient link management.
+- **Stealth Mode**: Uses `puppeteer-extra-plugin-stealth` to minimize detection risk and simulate real user interactions.
+- **Automated Google Ads Interaction**: Conducts Google searches for user-provided queries, finds Google Ads links, and navigates through these links.
+- **Rotating Proxies**: Integrates rotating proxies to ensure secure, continuous, and undetectable navigation across multiple links.
+- **Customizable User Agents and Viewport**: Configurable settings for browser characteristics such as user agent and viewport for more realistic browsing sessions.
+- **Link Storage and Revisit Options**: Stores previously visited links for reference or repeated use, allowing efficient link management.
 
 ## Installation
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/google-ads-link-navigator.git
-   cd google-ads-link-navigator
-
-npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer-extra-plugin-recaptcha
+   git clone https://github.com/abdulrahmanJAlabbed/Google-Ads-SEO-booster.git
+   cd Google-Ads-SEO-booster
+## Install Dependencies
+   ```bash
+   npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer-extra-plugin-recaptcha
