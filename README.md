@@ -17,3 +17,5 @@ This project is a Node.js script that automates the process of querying Google, 
    ```bash
    git clone https://github.com/your-username/google-ads-link-navigator.git
    cd google-ads-link-navigator
+
+npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer-extra-plugin-recaptcha
